@@ -1,5 +1,5 @@
-FROM suse/sles12sp2:latest
-MAINTAINER Flavio Castelli <fcastelli@suse.com>
+FROM suse/sles12sp2-docker:latest
+MAINTAINER Juan Herrera <juan.herrerai@suse.com>
 
 # Create a new demo_user.
 RUN /usr/sbin/useradd -m demo_user
