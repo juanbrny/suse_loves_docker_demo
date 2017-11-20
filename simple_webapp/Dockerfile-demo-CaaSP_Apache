@@ -5,4 +5,4 @@ ADD http://192.168.101.101/smt.crt /etc/pki/trust/anchors/smt.crt
 RUN update-ca-certificates
 
 RUN zypper ref -s
-RUN zypper -n in vim apache2 gcc pyton
+RUN zypper -n in vim apache2 gcc python
